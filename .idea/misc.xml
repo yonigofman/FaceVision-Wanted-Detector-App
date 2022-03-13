@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/background_input.xml" value="0.16709401709401708" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/dialog_background.xml" value="0.16623931623931623" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/gradient_orange.xml" value="0.26666666666666666" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/ic_bulleted_list.xml" value="0.17239583333333333" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/ic_map.xml" value="0.26666666666666666" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/ic_menu.xml" value="0.16709401709401708" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/drawable/ic_profile.xml" value="0.16709401709401708" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/all_fragment_wanted_list.xml" value="0.18" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/face_vision_cam_connect_dialog.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_accuracy.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_add_wanted.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_face_rec.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_face_vision_cam.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_maps.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/fragment_wanted_list.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Test/FaceVision_mvvm/app/src/main/res/layout/wanted_item.xml" value="0.2947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../javaDoc" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="azul-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

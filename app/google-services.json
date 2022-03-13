@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48362755631",
+    "project_id": "facevision-mvvm",
+    "storage_bucket": "facevision-mvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48362755631:android:e7f53b229deb6328e958da",
+        "android_client_info": {
+          "package_name": "com.example.facevision_mvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48362755631-fjfoa4u0gp5b3hrqbka817lnurulm405.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKx571OK0eN650jgFPW7wYQ8ZGbN0IJgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48362755631-fjfoa4u0gp5b3hrqbka817lnurulm405.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="297dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.example.facevision_mvvm.Fragments.FaceFragments.AddWantedFragment">
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="25dp">
+
+<!--        <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:text="Add Wanted"-->
+<!--                android:fontFamily="@font/rubik_medium"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textSize="25dp"-->
+<!--        />-->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+            <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                        app:boxStrokeWidth="0dp"
+                        android:layout_margin="10dp"
+
+                        android:layout_width="match_parent"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopStart="10dp"
+                        app:placeholderText="first name"
+                        android:hint="first name"
+                        android:baselineAligned="false"
+                        android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etFirstName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:soundEffectsEnabled="true"
+                           android:inputType="textPersonName"
+                            android:singleLine="true"
+                            android:imeOptions="actionDone"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                        android:layout_margin="10dp"
+                        app:boxStrokeWidth="0dp"
+
+                        android:layout_width="match_parent"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopStart="10dp"
+                        app:placeholderText="last name"
+                        android:hint="last name"
+                        android:baselineAligned="false"
+                        android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etLastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:soundEffectsEnabled="true"
+                            android:inputType="textPersonName"
+                            android:singleLine="true"
+                            android:imeOptions="actionDone"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+            <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:clickable="true"
+                    android:id="@+id/image_wanted"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+
+                android:src="@color/white"
+            android:layout_margin="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_save_wanted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="Add"
+                app:cornerRadius="90dp"
+        />
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>
